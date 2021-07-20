@@ -34,7 +34,6 @@ userRoutes.post("/user-create", async(req,res)=>{
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(req.body.password);
 
-
         //register new user
         const newUser = new GemUser({
             firstName: req.body.firstName,
@@ -42,6 +41,12 @@ userRoutes.post("/user-create", async(req,res)=>{
             emailAddress: req.body.emailAddress,
             userAccessKey: hashedPassword
         });
+
+        //register user
+        await newUser.save();
+
+        //send registered id
+        req.status(200).send({_id});
 
     } catch (error) {
         res.status(400).send({message: err});
