@@ -3,14 +3,21 @@ const Schema = mongoose.Schema;
 const gemUser = new Schema({
   firstName: {
     type: String,
-    required: true
+    required: true,
+    min: 3
   },
   lastName: {
     type: String,
-    required: true
+    required: true,
+    min: 3
   },
   emailAddress: {
     type: String
+  },
+  userAccessKey: {
+    type: String,
+    min: 3,
+    required: true
   },
   isMale: {
     type: Boolean,
