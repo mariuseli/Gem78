@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "xSesaUMdg3PMcjyHTJh///tulSHAZeDjEwFEGsrItSeMp4ziZ7IsQxGQg41LxZ7SHJ5r/JDvXdAiOjeXhqAXGw==",
+  "dgSpecHash": "dVMunRJEAISqbuPQdXr6is2JS1SfhcP8LYKc3zfBefTW0bILzQsl0b+FYIA8iwd4HQuoOpP3OhNnE2eqQMz6IQ==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Personal\\Projects\\mon-referent-gem-78-api\\GemCalendarApi\\GemCalendarApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\ical.net\\4.2.0\\ical.net.4.2.0.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\nodatime\\3.0.0\\nodatime.3.0.0.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
