@@ -16,11 +16,16 @@ namespace GemCalendarApi.Controllers
         {
             return View();
         }
+        
+        public IActionResult GetNextWeekCalendar()
+        {
+            return JsonResult()
+        }
 
 
         #region Private methods
 
-        private String GenerateRecurringEvent()
+        private string GenerateRecurringEvent()
         {
             var now = DateTime.Now;
             var later = now.AddHours(1);

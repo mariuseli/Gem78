@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dVMunRJEAISqbuPQdXr6is2JS1SfhcP8LYKc3zfBefTW0bILzQsl0b+FYIA8iwd4HQuoOpP3OhNnE2eqQMz6IQ==",
+  "dgSpecHash": "Dwv3Ux5iFuro/fDP7gT4kaloJ8TMi2b4/2iwXlVcZNac3EXlOb3A64wjaevWMa/vN5fR5zwFFaw79FV5zJETRw==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Personal\\Projects\\mon-referent-gem-78-api\\GemCalendarApi\\GemCalendarApi.csproj",
+  "projectFilePath": "C:\\Repos\\Personal\\Projects\\mon-referent-gem-78-api\\GemCalendarApi\\GemApi.WebApi\\GemCalendarApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.apaloo\\.nuget\\packages\\ical.net\\4.2.0\\ical.net.4.2.0.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
