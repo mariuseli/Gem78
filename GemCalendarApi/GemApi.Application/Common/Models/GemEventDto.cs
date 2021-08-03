@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace GemApi.Domain
+namespace GemApi.Application.Common.Models
 {
-    public class GemEvent : GemEntityBase
+    public class GemEventDto
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

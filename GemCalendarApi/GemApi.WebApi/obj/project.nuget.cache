@@ -1,17 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Dwv3Ux5iFuro/fDP7gT4kaloJ8TMi2b4/2iwXlVcZNac3EXlOb3A64wjaevWMa/vN5fR5zwFFaw79FV5zJETRw==",
+  "dgSpecHash": "b+BbKm+jiqm50Mo9SHjZsCI11qBkFY6Wst79TULbgJ3cZhTGEnk1pbcoYVTt5lmWJNyqu1Vkqj31hZ9l8dKUHw==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Personal\\Projects\\mon-referent-gem-78-api\\GemCalendarApi\\GemApi.WebApi\\GemCalendarApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m.apaloo\\.nuget\\packages\\ical.net\\4.2.0\\ical.net.4.2.0.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\nodatime\\3.0.0\\nodatime.3.0.0.nupkg.sha512",
-    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\m.apaloo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",
     "C:\\Users\\m.apaloo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
   ],
   "logs": []
