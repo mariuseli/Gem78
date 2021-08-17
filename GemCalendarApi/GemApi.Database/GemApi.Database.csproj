@@ -5,7 +5,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DatabaseFile\" />
+    <None Remove="DatabaseFile\GemEventsDatabase.db" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DatabaseFile\GemEventsDatabase.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GemApi.Application\GemApi.Application.csproj" />
   </ItemGroup>
 
 </Project>

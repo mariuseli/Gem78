@@ -1,25 +1,62 @@
-﻿using Ical.Net;
+﻿using GemApi.Application.GemEvents.Commands;
+using GemApi.Database.Persistence;
+using GemApi.Domain;
+using Ical.Net;
 using Ical.Net.CalendarComponents;
 using Ical.Net.DataTypes;
 using Ical.Net.Serialization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GemCalendarApi.Controllers
 {
-    public class CalendarController : Controller
+    [ApiController]
+    [Route("[controller]/[action]")]
+    public class CalendarController : ApiControllerBase
     {
+        private GemEventsDatabaseContext _dbContext;
+        private ILogger<CalendarController> _log;
+        public CalendarController(GemEventsDatabaseContext dbContext, ILogger<CalendarController> logger)
+        {
+            _dbContext = dbContext;
+            _log = logger;
+        }
+
+        [HttpGet] 
         public IActionResult Index()
         {
             return View();
         }
         
-        public IActionResult GetNextWeekCalendar()
+        [HttpPost]
+        public IActionResult AddNewGemEvent(GemEvent newEvent)
         {
-            return JsonResult()
+            try
+            {
+                CreateEventCommand createCommand = new CreateEventCommand()
+                {
+                    NewEvent = new GemApi.Application.Common.Models.GemEventDto
+                    {
+                        EndDate = newEvent.EndDate,
+                        GemEventDescription = newEvent.GemEventDescription,
+                        GemEventImage = newEvent.GemEventImage,
+                        GemEventLocation = newEvent.GemEventLocation,
+                        GemEventName = newEvent.GemEventName,
+                        GemEventUrl = newEvent.GemEventUrl,
+                        IsAllDayLong = newEvent.IsAllDayLong,
+                        StartDate = newEvent.StartDate
+                    }
+                };
+
+                int r = Mediator.Send(createCommand).GetAwaiter().GetResult();
+                return new JsonResult(createCommand.NewEvent);
+            }
+            catch (Exception exception)
+            {
+                return new JsonResult(exception);
+            }
         }
 
 

@@ -10,6 +10,6 @@ namespace GemApi.Domain
     {
         public string CategoryName { get; set; }
         public string CatogoryColor { get; set; }
-        public List<GemEvent> GemEvents { get; private set; }
+        public virtual List<GemEvent> GemEvents { get; private set; }
     }
 }

@@ -5,6 +5,7 @@ using GemApi.Application.Common.Mappings;
 using GemApi.Application.Common.Models;
 using MediatR;
 using System;
+using System.Data.Entity;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace GemApi.Application.GemEvents.Queries
         }
         public async Task<PaginatedList<GemEventDto>> Handle(GetAllEventsQuery request, CancellationToken cancellationToken)
         {
-            return await _context.GemEvents
+            return await _context.GemEvent
                 .AsNoTracking()
                 .ProjectTo<GemEventDto>(_mapper.ConfigurationProvider)
                 .OrderByDescending(ge=>ge.StartDate)

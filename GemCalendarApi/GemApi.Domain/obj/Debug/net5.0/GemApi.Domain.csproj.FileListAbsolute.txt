@@ -1,0 +1,11 @@
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\bin\Debug\net5.0\GemApi.Domain.deps.json
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\bin\Debug\net5.0\GemApi.Domain.dll
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\bin\Debug\net5.0\ref\GemApi.Domain.dll
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\bin\Debug\net5.0\GemApi.Domain.pdb
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\GemApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\GemApi.Domain.AssemblyInfoInputs.cache
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\GemApi.Domain.AssemblyInfo.cs
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\GemApi.Domain.csproj.CoreCompileInputs.cache
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\GemApi.Domain.dll
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\ref\GemApi.Domain.dll
+C:\Repos\Personal\Projects\mon-referent-gem-78-api\GemCalendarApi\GemApi.Domain\obj\Debug\net5.0\GemApi.Domain.pdb
